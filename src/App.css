@@ -7,16 +7,134 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: aliceblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("./stars.jpg");
+  /*color: white;*/
 }
 
 .App-link {
   color: #09d3ac;
+}
+.loginHeadTxt{
+    display: block;
+    margin: 10px 10px 10px 10px;
+    font-family: 'latoregular',arial, sans-serif;;
+    color: #ffff;
+    font-size: 40px;
+    text-align: center;
+}
+.loginTab{
+    border: 1px solid black;
+    /* margin: 16px; */
+    padding: 27px;
+    display: block;
+    background-color: #6b7a7b;
+    border-radius: 5px;
+    color: #fff
+}
+.loginTab label{
+    margin: 2px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'latoregular',arial, sans-serif;
+}
+.loginTab label input {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 36px;
+    width: 318px;
+    margin: 6px;
+    display: block;
+ }
+.formCont{
+  display: grid;
+}
+.buttonClass{
+    border-radius: 8px;
+    height: 36px;
+    width: 120px;
+    padding: 7px;
+    margin: 5px 0px 10px 100px;
+    text-align: center;
+    background: #293534;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+.loginContainer .errorMes{
+    color: #c90000;
+    margin: 84px;
+    border-radius: 3px;
+}
+.mainContainer{
+    width: 83%;
+    align-content: center;
+    margin: 10px 100px 10px 100px;
+    font-family: 'latoregular',arial, sans-serif;
+    /* border: 1px solid #2a89d7; */
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.headerStrip{
+    margin: 10px 0px 14px 7px;
+    background-color: #645e5e;
+    color: #fff;
+    min-height: 42px;
+    max-width: 97%;
+    font-size: 23px;
+    border-radius: 9px;
+    padding: 13px 0px 0px 15px;
+}
+.headerStrip .logout{
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    width: 73px;
+    padding: 4px 1px 0px 17px;
+    font-size: 18px;
+    height: 25px;
+}
+.midMainContainer{
+    margin: 18px 0px 20px 12px;
+}
+.filterArea label{
+    margin: 0px 0px 0px 7px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'latoregular',arial, sans-serif;
+}
+.filterArea input{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 36px;
+    width: 318px;
+    margin: 6px;
+    display: block; 
+}
+.searchPlanet ul {
+  padding: 20px;
+}
+.searchPlanet ul li {
+    background: #cce5ff;
+    margin: 5px;
+    border: 1px;
+    border-radius: 28px;
+    min-width: 200px;
+    padding: 12px 0px 2px 18px;
+    height: 55px;
+    display: inline-block;
+}
+.searchPlanet ul li span {
+    margin: 2px;
+    display: block;
 }
